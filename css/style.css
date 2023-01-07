@@ -1,0 +1,108 @@
+body {
+  font-family: "East Sea Dokdo", cursive;
+}
+
+.hidden {
+  display: none;
+}
+
+.images {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+  opacity: 80%;
+}
+#login-form {
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#greeting {
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#login-form input {
+  font-family: "East Sea Dokdo", cursive;
+  color: #36332e;
+  font-size: 23px;
+}
+
+#login-form input::placeholder {
+  font-family: "East Sea Dokdo", cursive;
+  color: #36332e;
+  font-size: 20px;
+  text-align: center;
+}
+
+#todo-form input {
+  font-family: "East Sea Dokdo", cursive;
+  position: relative;
+  color: #36332e;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  border-bottom: solid #000;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 500px;
+  font-size: 1.5rem;
+  background-color: transparent;
+}
+
+#todo-form input::placeholder {
+  font-family: "East Sea Dokdo", cursive;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+#todo-list {
+  font-family: "East Sea Dokdo", cursive;
+  position: absolute;
+  font-size: 20px;
+  right: 1%;
+  top: 5%;
+}
+
+.button {
+  border: 0;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 5px;
+}
+
+#clock {
+  color: #918383;
+  font-size: 55px;
+  text-align: center;
+}
+
+#weather {
+  position: absolute;
+  right: 1%;
+  top: 1%;
+  font-size: 25px;
+}
+
+#quote {
+  position: absolute;
+  font-size: 30px;
+  color: ivory;
+  left: 50%;
+  bottom: 10px;
+  transform: translateX(-50%);
+}
+
+#quote span:last-child {
+  display: block;
+  margin-left: 50%;
+}
